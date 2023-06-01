@@ -13,4 +13,10 @@ The full export script outputs: [SERVER_NAME][FULL]-[DATE].
 
 The weekly export script outputs: [SERVER_NAME]{Last-week}-{Today}.
 ## Script explanation
+-- ATTENTION --
+You still need to manually edit the files. On line 23 of each file you will need to paste your discord token and the path to your chat exporter tool.
+
+These files are supposed to be interactive, only token and the exporting tool are needed, once that is done the script will ask you for a server ID and then for an output PATH for your export.
+
 ## Output files
+## Examining the script
