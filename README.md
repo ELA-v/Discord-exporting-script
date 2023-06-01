@@ -23,3 +23,10 @@ Beware that the output files could be as big as a couple gigabytes if you are ex
 ## Output files
 The script outputs slpit HTML files into 100mbs for each channel, I set this limit since it is the biggest a file can be opened without eating all your ram or taking a while to open, it also makes it easier to navigate through the whole file.
 ## Examining the script
+dotnet DiscordChatExporter.Cli.dll exportguild -g ${SERVER_ID} --after ${EXPORT_DATE} --parallel 2 -p 100mb -t ${TOKEN} -o "${OUTPUT_DIRECTORY}/%G [${LASTWEEK}] - [${TODAY}]/[%P] %T/[%p] %C.html"
+
+## Reccomendations 
+7zip compressions becomes best when compressing the resulting files.
+COMPRESSING THE HTML FILES WITH 7ZIP CAN GRANT UP TO 90% REDUCTION IN SIZE. From a couple hundred megabytes to 20/30mbs. From a few gigabytes to just 100/200mbs.
+
+This is reccomended and encouraged for archival purposes.
