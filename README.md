@@ -9,6 +9,6 @@ FOLDER STRUCTURE: The script creates the following directory structure.
                 |---> [Channel position] Channel name.html
                 |---> [Channel position] Channel name.html
 
-The full export script outputs a folder like this: [SERVER_NAME][FULL]-[DATE].
+The full export script outputs: [SERVER_NAME][FULL]-[DATE].
 
 The weekly export script outputs: [SERVER_NAME]{Last-week}-{Today}.
