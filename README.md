@@ -4,7 +4,10 @@ I have created this template in the hopes many other people use it, it creates a
 
 FOLDER STRUCTURE: The script creates the following directory structure.
 
-    /'Server name' [Last week date]-[Today's date]/
+    /'Server name' [DATE]/
          |---> [Category position] Category name/
                 |---> [Channel position] Channel name.html
                 |---> [Channel position] Channel name.html
+
+The full export script outputs a folder like this: [SERVER_NAME][FULL]-[DATE].
+The weekly export script outputs: [SERVER_NAME]{Last-week}-{Today}.
