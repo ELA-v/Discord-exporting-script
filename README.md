@@ -18,5 +18,8 @@ You still need to manually edit the files. On line 23 of each file you will need
 
 These files are supposed to be interactive, only token and the exporting tool are needed, once that is done the script will ask you for a server ID and then for an output PATH for your export.
 
+Beware that the output files could be as big as a couple gigabytes if you are exporting an whole server, big and old servers can even get just a couple GBs for each channel. I reccomend you use the weekly export first for testing.
+
 ## Output files
+The script outputs slpit HTML files into 100mbs for each channel, I set this limit since it is the biggest a file can be opened without eating all your ram or taking a while to open, it also makes it easier to navigate through the whole file.
 ## Examining the script
