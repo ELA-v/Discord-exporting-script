@@ -5,6 +5,6 @@ I have created this template in the hopes many other people use it, it creates a
 FOLDER STRUCTURE: The script creates the following directory structure.
 
 /'Server name' [Last week date]-[Today's date]/
-        |---> [Category position] Category name/
-                |---> [Channel position] Channel name.html
-                |---> [Channel position] Channel name.html
+|---> [Category position] Category name/
+|---> [Channel position] Channel name.html
+|---> [Channel position] Channel name.html
