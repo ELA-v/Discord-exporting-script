@@ -12,3 +12,5 @@ FOLDER STRUCTURE: The script creates the following directory structure.
 The full export script outputs: [SERVER_NAME][FULL]-[DATE].
 
 The weekly export script outputs: [SERVER_NAME]{Last-week}-{Today}.
+## Script explanation
+## Output files
