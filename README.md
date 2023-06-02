@@ -50,6 +50,10 @@ On the same folder you will get the category name with thi %T option.
 And finally at the inside of the category folders you will get the actual file. Using %p to get the channel positions (remember that oldest channels get numbered first) and then the %C option to get the channel name. It is finally converted into a carefully crafted html file ready for archiving!
 
 Remember that this script does not save any media files because that would take a lot of space. The media option is set to false from default but you can enable by just adding "--media"" to the script. 
+Also enable "--reuse-media" This will reuse previously downloaded assets to avoid redundant requests. Default: false.
+
+Link to the actual documentation: https://github.com/Tyrrrz/DiscordChatExporter/blob/master/.docs/Getting-started.md#using-the-cli
+
 
 ## Reccomendations 
 7zip compressions becomes best when compressing the resulting files.
