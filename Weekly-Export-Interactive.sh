@@ -43,3 +43,4 @@ dotnet DiscordChatExporter.Cli.dll exportguild -g ${SERVER_ID} --after ${EXPORT_
 ##                |---> [Channel position] Channel name.html
 ##                |---> [Channel position] Channel name.html
 ##
+## JANS
